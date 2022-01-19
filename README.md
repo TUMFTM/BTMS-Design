@@ -2,10 +2,10 @@
 
 The battery thermal management system (BTMS) of a lithium-ion battery aims to prevent accelerated battery aging at elevated temperatures and reduced operability at low temperatures. Cooling or heating the battery prevents it from being operated outside the preferred temperature window but increases energy consumption, increases maintenance costs and requires an additional investment. Therefore, for a given use case, battery designers need to decide whether installing a heating system is required, if it is cost effective to install a cooling system, and how the battery should be thermally connected to the ambient air.
 
-This repository provides the source code a method for the techno-economic assessment of BTMS in different climates. The results and methodology are documented in the following publication: 
+This repository provides the source code to a method for the techno-economic assessment of BTMS in different climates. The detailed documentation and a case study can be found in the following publication: https://doi.org/10.1016/j.est.2021.103832
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes. 
  
 ### Prerequisites
 Running the software requires a Julia distribution version 1.6.5 or above, which can be downloaded here: https://julialang.org/downloads/#long_term_support_release
@@ -14,7 +14,7 @@ Although Julia can be run from the commandline, we advise using Visual Studio (a
   
 ### Installing
 
-All required code is obtained by cloning the repository. Additionally, the following packages need to be installed via the REPL using the command. From the Julia REPL, the Pkg REPL can be entered by pressing <code>]</code>. Packages can then be installed with the following command <code>add <var>Package</var></code>.
+All required code is obtained by cloning the repository. Additionally, the following packages need to be installed via the Pkg REPL, that can be entered by pressing <code>]</code>. Packages can then be installed with the following command <code>add <var>Package</var></code>.
   - DelimitedFiles
   - Statistics
   - Interpolations
