@@ -29,6 +29,8 @@ The repository containts two executable scripts:
 - main_single_run.jl starts the simulation of a single BTMS configuration in two climates and generates Figures 4,5,S1,S2,S3 and S4 from the research article.
 - main.jl starts the batch simulation of all BTMS configurations defined in the design of experiment and generates figures 6,7,8 and S5 from the research article
 
+The execution time on a 16GB RAM, 1.8GHz machine is less than one minute for main_single_run.jl and 2.5 hours for main.jl. 
+
 ## Contributing
 
 If you would like to contribute to this work or have any feedback, please do not hesitate to contact me at olaf.teichert@tum.de
